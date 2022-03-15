@@ -21,21 +21,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/student"
-                android:text="Button" />
+                android:text="Học Sinh" />
 
             <Button
                 android:id="@+id/btntea"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/teacher"
-                android:text="Button" />
+                android:text="giáo viên" />
 
             <Button
                 android:id="@+id/btngt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/gt"
-                android:text="Button" />
+                android:text="giao tiếp" />
         </LinearLayout>
     </ScrollView>
 
@@ -43,17 +43,18 @@
         android:id="@+id/fabadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="28dp"
-
         android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="28dp"
         android:backgroundTint="@android:color/darker_gray"
         android:clickable="true"
         android:focusable="true"
         android:tint="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_add" />
+        app:srcCompat="@drawable/ic_add"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabuser"
