@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/drawable/ic_setting.xml" value="0.13" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_signup.xml" value="0.209375" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_student1.xml" value="0.209375" />
       </map>
     </option>
   </component>

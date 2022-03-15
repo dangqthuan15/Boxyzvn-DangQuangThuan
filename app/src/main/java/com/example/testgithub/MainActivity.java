@@ -19,24 +19,24 @@ public class MainActivity extends AppCompatActivity {
         btndn = findViewById(R.id.btndn);
         btndk = findViewById(R.id.btndk);
 
-//        btndn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent1 = new Intent();
-//                intent1.setClass(MainActivity.this,Home.class);
-//                startActivity(intent1);
+        btndn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent();
+                intent1.setClass(MainActivity.this,Home.class);
+                startActivity(intent1);
+
+            }
+        });
 //
-//            }
-//        });
-//
-//        btndk.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent2= new Intent();
-//                intent2.setClass(MainActivity.this,Signup.class);
-//                startActivity(intent2);
-//            }
-//        });
+        btndk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2= new Intent();
+                intent2.setClass(MainActivity.this,Signup.class);
+                startActivity(intent2);
+            }
+        });
     }
 
 }
