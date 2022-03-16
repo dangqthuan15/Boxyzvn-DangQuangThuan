@@ -25,7 +25,7 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         btnstu = findViewById(R.id.btnstu);
         btntea = findViewById(R.id.btntea);
-        btngt = findViewById(R.id.btngt);
+        btngt = findViewById(R.id.btnkhac);
 
         fabadd = (FloatingActionButton) findViewById(R.id.fabadd);
         fabuser = (FloatingActionButton) findViewById(R.id.fabuser);

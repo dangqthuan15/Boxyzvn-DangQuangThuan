@@ -19,23 +19,28 @@
             <Button
                 android:id="@+id/btnstu"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/student"
                 android:text="Học Sinh" />
 
             <Button
                 android:id="@+id/btntea"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/teacher"
                 android:text="giáo viên" />
 
             <Button
-                android:id="@+id/btngt"
+                android:id="@+id/btnkhac"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableTop="@drawable/gt"
-                android:text="giao tiếp" />
+                android:layout_weight="1"
+                android:drawableTop="@drawable/khac"
+                android:text="khác" />
+
+
         </LinearLayout>
     </ScrollView>
 

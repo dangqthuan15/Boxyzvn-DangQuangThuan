@@ -7,67 +7,26 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/background1"
-    tools:context=".Signup">
+    >
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="37dp"
         android:layout_gravity="center"
+        android:background="#FFEB3B"
+        android:gravity="center"
         android:text="Đăng ký tài khoản "
         android:textAllCaps="true"
-        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/edtho"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="Họ"
-            android:textColor="#000000"
-            android:textColorHint="#000000"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <EditText
-            android:id="@+id/edtten"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="Tên"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textColor="#000000"
-            android:textColorHint="#000000" />
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/edtdate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="dd/mm/yyyy"
-        android:inputType="date"
-        android:minHeight="48dp"
-        android:textColor="#000000"
-        android:textColorHint="#000000" />
-
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nơi sinh sống"
-        android:minHeight="48dp"
-        android:textColor="#000000"
-        android:textColorHint="#000000" />
+        android:orientation="horizontal"/>
 
     <EditText
         android:id="@+id/edttendangnhap"
@@ -96,8 +55,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#3F51B5"
+        android:background="#FFEB3B"
         android:text="Đăng ký"
-        android:textColor="#FFFFFF" />
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnhuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:text="Hủy"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF" />
 
 </LinearLayout>

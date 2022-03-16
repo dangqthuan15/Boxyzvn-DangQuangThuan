@@ -14,23 +14,23 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3F51B5"
+        android:background="#FFEB3B"
         android:text="ĐĂNG NHẬP"
         android:textAlignment="center"
-        android:textColor="@color/white" />
+        android:textColor="@color/black"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/edttk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
         android:ems="10"
         android:hint="  Nhập tài khoản"
-        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
-
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="#000000"
-        android:textColorHint="#000000" />
+        android:textColor="#D86B48"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/edtmk"
@@ -40,18 +40,18 @@
         android:hint="  Password"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:minHeight="48dp"
-        android:textColor="@color/black"
-        android:textColorHint="#000000" />
+        android:textColor="#D86B48"
+        android:textColorHint="@color/white" />
 
     <Button
         android:id="@+id/btndn"
         android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_margin="5px"
-        android:background="#3F51B5"
+        android:background="#FFEB3B"
 
         android:text="Đăng nhập"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textColorHint="#FFFFFF" />
 
 
@@ -60,9 +60,9 @@
         android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_margin="5px"
-        android:background="#3F51B5"
+        android:background="#FFEB3B"
         android:text="Đăng ký"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textColorHint="#FFFFFF" />
 
 </LinearLayout>

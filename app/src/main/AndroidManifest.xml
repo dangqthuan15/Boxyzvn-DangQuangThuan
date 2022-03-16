@@ -19,9 +19,6 @@
             android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".Signup"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
