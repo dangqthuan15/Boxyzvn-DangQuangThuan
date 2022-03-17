@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
+            android:name=".thembaiviet"
+            android:exported="false" />
+        <activity
+            android:name=".Detail"
+            android:exported="false" />
+        <activity
             android:name=".coban"
             android:exported="false" />
         <activity

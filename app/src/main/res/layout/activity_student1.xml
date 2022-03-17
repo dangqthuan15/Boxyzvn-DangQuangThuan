@@ -25,7 +25,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:text="Phép toán cơ bản "
+                android:text="@string/btncoban"
                 android:textSize="25dp" />
 
             <Button
@@ -34,7 +34,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:text="Các loại phương trình"
+                android:text="@string/btnpt"
                 android:textSize="25dp" />
         </LinearLayout>
 
@@ -49,7 +49,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:text="Toán bậc cao"
+                android:text="@string/btnham"
                 android:textSize="25dp" />
 
             <Button
@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:text="khác"
+                android:text="@string/btnkhac"
                 android:textSize="25dp" />
         </LinearLayout>
 
@@ -72,7 +72,7 @@
         android:layout_marginEnd="16dp"
 
         android:layout_marginBottom="28dp"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="#FFC107"
         android:clickable="true"
         android:focusable="true"
         android:tint="@android:color/white"
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_gravity="bottom|end"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="#FFC107"
         android:clickable="true"
         android:focusable="true"
         android:visibility="invisible"
@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="#FFC107"
         android:clickable="true"
         android:focusable="true"
         android:visibility="invisible"

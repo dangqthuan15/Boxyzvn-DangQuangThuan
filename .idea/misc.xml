@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/drawable/button_tron.xml" value="0.134" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/drawable/ic_add.xml" value="0.141" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1315" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/drawable/ic_setting.xml" value="0.13" />
-        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_coban.xml" value="0.1" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_coban.xml" value="0.25" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_signup.xml" value="0.209375" />
         <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_student1.xml" value="0.209375" />
-        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/layout1.xml" value="0.1953125" />
-        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/layout2.xml" value="0.209375" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/activity_thembaiviet.xml" value="0.209375" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/chitiet.xml" value="0.209375" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/detail.xml" value="0.1953125" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/hinhtron.xml" value="0.1953125" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/layout1.xml" value="0.18" />
+        <entry key="..\:/Users/OS/AndroidStudioProjects/testgithub/app/src/main/res/layout/layout2.xml" value="0.22" />
       </map>
     </option>
   </component>

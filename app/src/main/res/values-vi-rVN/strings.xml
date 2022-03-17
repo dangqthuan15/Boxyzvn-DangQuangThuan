@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">testgithub</string>
+    <string name="txtdangnhap">Đăng nhập</string>
+    <string name="hinttaikhoan">Tên tài khoản</string>
+    <string name="hintmatkhau">Mật khẩu</string>
+    <string name="btndangnhap">Đăng nhập</string>
+    <string name="btndangki">Đăng ký</string>
+    <string name="txtdangki">Đăng ký</string>
+    <string name="btnhuy">Hủy</string>
+    <string name="btnhocsinh">Học sinh</string>
+    <string name="btngiaovien">Giáo viên</string>
+    <string name="btnkhac">Khác</string>
+    <string name="btncoban">"Toán cơ bản "</string>
+    <string name="btnpt">Các dạng phương trình</string>
+    <string name="btnham">Toán nâng cao</string>
+    <string name="tabtailieu">Tài liệu</string>
+    <string name="tabmaytinh">Máy tính</string>
+    <string name="btncong">Cộng</string>
+    <string name="btntru">Trừ</string>
+    <string name="btnnhan">Nhân</string>
+    <string name="btnchia">Chia</string>
+    <string name="btnxoa">Xóa</string>
+    <string name="txta">Nhập a</string>
+    <string name="txtb">Nhập b</string>
+    <string name="txtchitet">Chi tiết về chúng tôi</string>
+    <string name="btntien">Quay lại</string>
+    <string name="btnlui">Tiếp tục</string>
+    <string name="btnthem">Thêm</string>
+    <string name="txttieude">Tiêu đề</string>
+    <string name="txtmota">Mô tả</string>
+    <string name="btnsua">Cập nhật</string>
+    <string name="txtchao">Xin chào</string>
+    <string name="txt1">Đăng nhập thất bại</string>
+    <string name="txt2">Mời bạn nhập đủ thông tin</string>
+</resources>

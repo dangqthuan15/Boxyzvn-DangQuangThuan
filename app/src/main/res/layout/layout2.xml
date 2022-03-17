@@ -10,7 +10,8 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nhập a" />
+        android:text="Nhập a"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edta"
@@ -24,7 +25,8 @@
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nhập b" />
+        android:text="Nhập b"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edtb"
@@ -50,43 +52,78 @@
 
         <Button
             android:id="@+id/btncong"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5px"
             android:layout_weight="1"
             android:background="#D86B48"
-            android:text="Cộng" />
+            android:text="@string/btncong" />
 
         <Button
             android:id="@+id/btntru"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5px"
             android:layout_weight="1"
             android:background="#D86B48"
-            android:text="Trừ" />
+            android:text="@string/btntru" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnnhan"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5px"
             android:layout_weight="1"
             android:background="#D86B48"
-            android:text="Nhân" />
+            android:text="@string/btnnhan" />
 
         <Button
             android:id="@+id/btnchia"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5px"
             android:layout_weight="1"
             android:background="#D86B48"
-            android:text="Chia" />
+            android:text="@string/btnchia" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnclear"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="#D86B48"
-        android:text="Xoá" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnclear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5px"
+            android:layout_weight="1"
+            android:background="#D86B48"
+            android:text="@string/btnxoa" />
+
+        <Button
+            android:id="@+id/btnls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5px"
+            android:layout_weight="1"
+            android:background="#D86B48"
+            android:text="Lịch sử" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtlichsu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:text="TextView"
+        android:textSize="16sp" />
 
 </LinearLayout>

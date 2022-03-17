@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">testgithub</string>
+    <string name="txtdangnhap">Sign in</string>
+    <string name="hinttaikhoan">Account</string>
+    <string name="hintmatkhau">Password</string>
+    <string name="btndangnhap">Sign in</string>
+    <string name="btndangki">Sign up</string>
+    <string name="txtdangki">Sign up</string>
+    <string name="btnhuy">Cancle</string>
+    <string name="btnhocsinh">Student</string>
+    <string name="btngiaovien">Teacher</string>
+    <string name="btnkhac">Other</string>
+    <string name="btncoban">Basic math</string>
+    <string name="btnpt">Math Equation</string>
+    <string name="btnham">Advanced math</string>
+    <string name="tabtailieu">Document</string>
+    <string name="tabmaytinh">Calculator</string>
+    <string name="btncong">Plus</string>
+    <string name="btntru">Subtraction</string>
+    <string name="btnnhan">Multiplication</string>
+    <string name="btnchia">Division</string>
+    <string name="btnxoa">Delete</string>
+    <string name="txta">Import a</string>
+    <string name="txtb">Import b</string>
+    <string name="txtchitet">Detail</string>
+    <string name="btntien">Previous</string>
+    <string name="btnlui">Next</string>
+    <string name="btnthem">Create</string>
+    <string name="txttieude">Title</string>
+    <string name="txtmota">Description</string>
+    <string name="btnsua">Update</string>
+    <string name="txtchao">Hello</string>
+    <string name="txt1">Login fail</string>
+    <string name="txt2">Please enter enough information</string>
+
+
 </resources>

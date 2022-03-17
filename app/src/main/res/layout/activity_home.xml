@@ -22,7 +22,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:drawableTop="@drawable/student"
-                android:text="Học Sinh" />
+                android:text="@string/btnhocsinh" />
 
             <Button
                 android:id="@+id/btntea"
@@ -30,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:drawableTop="@drawable/teacher"
-                android:text="giáo viên" />
+                android:text="@string/btngiaovien" />
 
             <Button
                 android:id="@+id/btnkhac"
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:drawableTop="@drawable/khac"
-                android:text="khác" />
+                android:text="@string/btnkhac" />
 
 
         </LinearLayout>
@@ -52,7 +52,7 @@
         android:layout_marginEnd="16dp"
 
         android:layout_marginBottom="28dp"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="#FFC107"
         android:clickable="true"
         android:focusable="true"
         android:tint="@android:color/white"
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_gravity="bottom|end"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="#FFC107"
         android:clickable="true"
         android:focusable="true"
         android:visibility="invisible"
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="#FFC107"
         android:clickable="true"
         android:focusable="true"
         android:visibility="invisible"

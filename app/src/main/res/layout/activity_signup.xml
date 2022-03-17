@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:background="#FFEB3B"
         android:gravity="center"
-        android:text="Đăng ký tài khoản "
+        android:text="@string/txtdangki"
         android:textAllCaps="true"
         android:textColor="@color/black"
         android:textColorHint="#FFFFFF"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Tên đăng nhập"
+        android:hint="@string/hinttaikhoan"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#000000"
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Mật khẩu"
+        android:hint="@string/hintmatkhau"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="#000000"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="#FFEB3B"
-        android:text="Đăng ký"
+        android:text="@string/btndangki"
         android:textColor="#000000"
         android:textColorHint="#FFFFFF" />
 
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFEB3B"
-        android:text="Hủy"
+        android:text="@string/btnhuy"
         android:textColor="@color/black"
         android:textColorHint="#FFFFFF" />
 
