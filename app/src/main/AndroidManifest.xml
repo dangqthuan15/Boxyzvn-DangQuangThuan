@@ -22,6 +22,9 @@
             android:name=".Student1"
             android:exported="false" />
         <activity
+            android:name=".MainActivity1"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

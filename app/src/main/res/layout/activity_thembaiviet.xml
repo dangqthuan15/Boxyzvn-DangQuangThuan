@@ -49,30 +49,33 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnthem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#D86B48"
             android:layout_margin="5px"
+            android:onClick="AddRow"
             android:text="@string/btnthem" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnxoa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#D86B48"
             android:layout_margin="5px"
+            android:onClick="DeleteRow"
             android:text="@string/btnxoa" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnsua"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#D86B48"
             android:layout_margin="5px"
+            android:onClick="UpdateRow"
             android:text="@string/btnsua" />
     </LinearLayout>
 

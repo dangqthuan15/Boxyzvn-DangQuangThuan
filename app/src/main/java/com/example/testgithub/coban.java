@@ -3,6 +3,7 @@ package com.example.testgithub;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -24,10 +25,11 @@ import java.util.Arrays;
 
 public class coban extends AppCompatActivity {
     EditText edta,edtb,edtkq,edtsearch;
-    Button btncong, btntru, btnnhan, btnchia, btnclear, btnlichsu,btnthem;
+    Button btncong, btntru, btnnhan, btnchia, btnclear, btnlichsu,btntao;
     TabHost tabhostcoban;
     TextView txtlichsu;
     String lichsu= "";
+    String title,des;
     String [] items;
     ArrayList<String> listItems;
     ArrayAdapter<String> adapter;
@@ -40,7 +42,7 @@ public class coban extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coban);
-        btnthem = findViewById(R.id.btnthem);
+        btntao = findViewById(R.id.btntao);
         listView = findViewById(R.id.listview);
         edtsearch = findViewById(R.id.edtsearch);
         initList();
@@ -60,8 +62,58 @@ public class coban extends AppCompatActivity {
             }
         });
 
+
         addControl();
         addEvents();
+        btntao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent thuan = new Intent(coban.this,MainActivity1.class);
+                startActivity(thuan);
+
+//                final Dialog dialog = new Dialog(coban.this);
+//                dialog.setTitle("abc");
+//                dialog.setCancelable(false);
+//
+//                dialog.setContentView(R.layout.activity_thembaiviet);
+//                final EditText edttitle = (EditText) dialog.findViewById(R.id.edttitle);
+//                final EditText edtdes = (EditText) dialog.findViewById(R.id.edtdes);
+//                Button btnthem = (Button) dialog.findViewById(R.id.btnthem);
+//                Button btnxoa = (Button) dialog.findViewById(R.id.btnxoa);
+//                Button btnsua = (Button) dialog.findViewById(R.id.btnsua);
+//
+//
+//                btnthem.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        title = edttitle.getText().toString().trim();
+//                        des = edtdes.getText().toString().trim();
+//
+//
+//                        edttitle.setText(title);
+//                        edtdes.setText(des);
+//
+//                        dialog.cancel();
+//                    }
+//                });
+//
+//                btnxoa.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        dialog.cancel();
+//                    }
+//                });
+//                btnsua.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        dialog.cancel();
+//                    }
+//                });
+//                dialog.show();
+
+
+            }
+        });
     }
     public void onPause(){
         super.onPause();
@@ -141,7 +193,7 @@ public class coban extends AppCompatActivity {
 
             }
         });
-        btnthem.setOnClickListener(new View.OnClickListener() {
+        btntao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent them = new Intent(coban.this,thembaiviet.class);
@@ -198,4 +250,6 @@ public class coban extends AppCompatActivity {
         actionBar.setTitle("Cơ Bản");
         return super.onCreateOptionsMenu(menu);
     }
+
+
 }
